@@ -1,0 +1,40 @@
+<div>
+    <h1>My Cart</h1>
+    <br>
+    
+    <div class="ProductInfo">
+        <p class="itemDiv">item</p>
+        <div class="itemDetail">
+            <p>UNITE PRICE </p>
+            <p>QTY</p>
+            <p>TOTAL</p>
+        </div>
+    </div>
+
+
+                  <div class="ProductInfo" *ngFor="let order of orders ; let i =index"
+                  >
+                      <div  class="pic">
+                      <img src={{order.product.image}}>
+                       <p ><b>{{order.product.name}}</b></p>
+                       </div>
+                       <div class="itemInfo">
+                        <p>{{order.product.price}}</p>
+                        <div class="actions">
+                        <input type="text"
+                        [(ngModel)]="qty"
+                       class="myInput" 
+                       placeholder={{order.it}} />
+                        <button 
+                        (click) = "onUpdate(i)"
+                      class="myBtn">Update Qty</button>
+                        <button 
+                     (click) = "onRemove(i)"
+                      class="myBtn">Remove</button>
+                        </div>
+                        <p>{{order.it * order.product.price}}</p>
+                        </div>
+
+                  </div> 
+            
+    </div>

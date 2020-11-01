@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+.Side{
+    max-width: 80%;
+    width: 80%;
+    height: 1000px;
+    float: right;
+    margin-top:-3%;
+  
+    
+}
+.Content{
+    margin: 2%;
+    
+    margin-left:1% ;
+    margin-top: 5%;
+
+    display:flex;
+    flex-direction: row;
+  
+}
+
+.ProductType{
+flex: 100%;
+width: 85%;
+border: 1px solid gray;
+margin: 2%;
+float: left;
+margin-left:5% ;
+}
+.Box{
+
+    border:1px solid gray ;
+}
+
+.jana{
+   
+    width: 200px;
+}
+
+.jana2{
+   
+    width: 5000px;
+}
+.TopBox{
+    background-color: lightgray;
+    color: gray;
+    font-weight: bold;
+}
+
+.First{
+    display: flex;
+    flex-direction: row;
+    padding-left: 7%;
+}
+
+.Sec{
+    flex: 15%;
+    width: 15%;
+}
+
+.innerP{
+text-align: center;
+padding-right: 20%;
+}
+
+.SideDiv{
+    background-color:lightgray;
+     padding:0.5% ; 
+      
+     color:gray
+}
+
+.innerSide{
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+
+}
+ a{
+     text-decoration: none;
+ }
+ .innerSide a{
+     color: gray;
+ }
+
+.Container{
+    flex: 100%;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 2%;
+    float: left;
+    margin-left:5% ;
+}
+
+.topInfo{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+}
+
+p{
+    text-align: center;
+}
+
+.Buy{
+    border: 1px solid gray;
+    float: right;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    margin-left: 5%;
+    padding: 0px;
+
+}
+
+.myLink{
+    text-decoration: none;
+    color: blue;
+}
+
+.myButton{
+   margin: auto;
+   background-color:#8B0000;
+   color: white;
+   font-weight: bold;
+   border-radius: 25px;
+   height: 100%;
+   width: 70%;
+}
+
+@media (max-width: 700px) {
+    .topInfo{
+        flex-direction: column;
+    }
+    .Container{
+        width: 70%;
+    }
+  
+  }

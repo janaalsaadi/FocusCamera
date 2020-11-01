@@ -1,0 +1,140 @@
+<div class="Content">
+    <div class="Side" >
+        <p style="width:100% ;  text-align:left"><a href="#">Home</a>/ <a href="#">PHOTO&VIDEO</a>/ <a href="#">CAMERAS</a></p>
+
+       
+
+        <div class="jana">
+            <div class="Box">
+            <div class="SideDiv">FILTER BY</div>
+               <div class="innerSide" >
+               <div> <input type="checkbox" (change)="price1($event)"  /><label>Price 50-200$</label> </div>
+               <div> <input type="checkbox" (change)="price2($event)" /><label>Price 200-400$</label> </div>
+               <div> <input type="checkbox" (change)="price3($event)" /><label>Price more than 1000$</label> </div>
+               <div> <input type="checkbox" (change)="category1($event)"/><label>Category : Camera</label> </div>
+               <div> <input type="checkbox" (change)="category2($event)" /><label>Category : Light</label> </div>
+               </div>
+            </div>
+            <br>
+
+            <div class="Box">
+            <div class="SideDiv">FLENS IN</div>
+               <div class="innerSide" >
+                   <div> <input type="checkbox"  /><label>18-55mm (47)</label> </div>
+                   <div> <input type="checkbox" /><label>Free Standard (853)</label> </div>
+                   <div> <input type="checkbox"  /><label>28-70mm (30)</label> </div>
+                   <div> <input type="checkbox" /><label>16-50mm (30)</label> </div>
+                   <div> <input type="checkbox" /><label>16-50mm & 55-210mm (20)</label> </div>
+                  
+               </div>
+            </div>
+
+
+             <br>
+
+            <div class="Box">
+            <div class="SideDiv">LCD SCR</div>
+               <div class="innerSide" >
+                   
+               <div> <input type="checkbox"  /><label>18-55mm (47)</label> </div>
+                   <div> <input type="checkbox" /><label>Free Standard  (853)</label> </div>
+                   <div> <input type="checkbox"  /><label>28-70mm (30)</label> </div>
+                   <div> <input type="checkbox" /><label>16-50mm (30)</label> </div>
+                   <div> <input type="checkbox" /><label>16-50mm & 55-210mm (20)</label> </div>
+                   
+               </div>
+            </div>
+
+
+
+        </div>
+
+       
+        
+
+    </div>
+
+    
+
+
+
+    <div class="jana2">
+        <div class="ProductType">
+            <div class="Box TopBox">SHOW BY PRODUCT TYPE</div>
+            <div class="First">
+              
+                    <div class="Sec"  *ngFor="let image of images"> 
+                        <img [src]="image.src" style="width:75%"/>
+                    <p class="innerP"><a href="#" style="text-decoration:none ; color:black">{{image.txt}}</a></p>
+                    </div>
+
+            </div>
+        </div>     
+
+       <div  *ngFor="let item of products" class="Container">
+           
+      
+        <div style="float:left ; padding-top:5%" >
+            <img [src]="item.image" />
+            <div style="margin-left:25% ; margin-top:-16%">
+            </div>
+        </div>
+        
+        <div style="margin-bottom:1%">
+            <div >
+            {{item.name}}
+            </div>
+          <div class="topInfo">
+            <div>MFR: {{item.MFR}}</div> 
+            <div>|</div>
+            <div>FC: {{item.FC}}</div>
+            <div>|</div>
+            <div>Condition:<a class="myLink"> New </a></div>
+           </div>
+        </div>
+        
+          <div style="display:flex ; flex-direction:row">
+              <ul>
+                 
+              </ul>
+            <div style="width: 63%;" >  
+            <ul
+              style="text-decoration: double; padding-left:5% ; width:98%" >
+                <li *ngFor="let jj of item.info">{{jj.data}}</li>
+            </ul>
+        
+            <div style="padding-left:0% ; font-weight:bold" ><a class="myLink" >In Stock</a> / <a class="myLink">Free Shipping</a></div>
+            </div>
+        
+            <div class="Buy">
+                <h3 style="color:#8B0000; text-align:center">{{item.price}}</h3>
+                <p>Pay {{item.price}} / month with <b>affirm</b></p>
+                <p><a>Learn more</a></p>
+                <p ><b>Qty:</b> <input type="text" style="width: 15%;"  required 
+                    [(ngModel)]="myitem"/> </p>
+                <p style="height: 17%;">
+
+                    <a [routerLink]="['/cart']" 
+                    [state]="{ id:item.id , name:item.name , price:item.price , image: item.image}"
+                    class="myButton"
+                    style="background-color:#8B0000 ; text-decoration:none"
+                    >
+             
+                     <input type="button" style="background-color:#8B0000 ; border-radius:10px"
+                     (click)="onAddQuntity(item)" value=" ADD TO CART"
+                     >
+                     </a>
+
+                    
+                 
+                </p>
+        
+             </div>
+          </div>
+        
+        </div>
+        
+
+   </div>
+   
+     </div>

@@ -1,0 +1,129 @@
+[
+  {
+    "id":0,
+    "category":"camera",
+    "name": "Sony Alpha a7 III 24.2MP Full Frame Mirrorless Digital Camera with 28-70mm Lens",
+    "image":"https://cdn3.focuscamera.com/media/product/ba1/sony-alpha-a7-iii-24-2mp-full-frame-mirrorless-digital-camera-with-28-70mm-lens-ilce7m3kb-180.jpg",
+    "price":175,
+    "info":[
+        {"data" : "24.2MP BSI full-frame image sensor"},
+        {"data" :"High-speed BIONZ X processing-engine"},
+        {"data" : "Up to 10 fps with AF/AE tracking"},
+        {"data" : "4K full-frame HDR Movie with full pixel readout"},
+        {"data" : "3-inch 922K-dot LCD touch screen"}
+        
+    ],
+    "MFR":"ILCE7M3K/B",
+    "FC": "ILCE7M3KB"
+
+
+  },
+
+  {
+    "id":1,
+    "category":"camera",
+    "name": "Sony Alpha a7 III 24.2MP Full Frame Mirrorless Digital Camera (Body Only)",
+    "image":"https://cdn3.focuscamera.com/media/product/220/sony-alpha-a7-iii-24-2mp-full-frame-mirrorless-digital-camera-body-only-ilce7m3b-e8b.jpg",
+    "price":212,
+    "info":[
+        {"data" : "24.2MP BSI full-frame image sensor"},
+        {"data" :"High-speed BIONZ X processing-engine"},
+        {"data" : "Up to 10 fps with AF/AE tracking"},
+        {"data" : "4K full-frame HDR Movie with full pixel readout"},
+        {"data" : "3-inch 922K-dot LCD touch screen"}
+        
+    ],
+    "MFR":"ILCE7M3/B",
+    "FC": "ILCE7M3B"
+
+
+  },
+
+
+
+  {
+    "id":2,
+    "category":"camera",
+    "name": "Sony a7 III Full Frame Mirrorless Camera with 28-70mm, FE 50mm f/1.8 Lens, 64GB Card, and Accessory Bundle",
+    "image":"https://cdn3.focuscamera.com/media/product/bd7/sony-alpha-a7ii-mirrorless-digital-camera-with-sony-28-70mm-f-3-5-5-6-oss-lens-ilce7m2kb-fec.jpg",
+    "price":356,
+    "info":[
+        {"data" : "Advanced 24.2MP back-illuminated 35mm image sensor"},
+        {"data" :"BIONZ X image processing engine"},
+        {"data" : "Shoot continuously at up to 8 fps in live view mode"},
+        {"data" : "4K HDR movie with full pixel readout, no pixel binning or crop"},
+        {"data" : "3-inch 922K-dot tiltable touch LCD Screen"}
+        
+    ],
+    "MFR":"ILCE7M3/B",
+    "FC": "ILCE7M3KBKIT9"
+
+
+  },
+
+
+  {
+    "id":3,
+    "category":"Lighting",
+    "name": "Sony a7 III Full Frame Mirrorless Camera with 28-70mm, FE 50mm f/1.8 Lens, 64GB Card, and Accessory Bundle",
+    "image":"https://cdn3.focuscamera.com/media/product/5da/aputure-light-storm-ls-c300d-ii-led-light-kit-v-mount-lsc300diivkit-18e.jpg",
+    "price":85,
+    "info":[
+        {"data" : "Advanced 24.2MP back-illuminated 35mm image sensor"},
+        {"data" :"BIONZ X image processing engine"},
+        {"data" : "Shoot continuously at up to 8 fps in live view mode"},
+        {"data" : "4K HDR movie with full pixel readout, no pixel binning or crop"},
+        {"data" : "3-inch 922K-dot tiltable touch LCD Screen"}
+        
+    ],
+    "MFR":"ILCE7M3/B",
+    "FC": "ILCE7M3KBKIT9"
+
+
+  },
+
+
+  {
+    "id":4,
+    "category":"Lighting",
+    "name": "Sony a7 III Full Frame Mirrorless Camera with 28-70mm, FE 50mm f/1.8 Lens, 64GB Card, and Accessory Bundle",
+    "image":"https://cdn3.focuscamera.com/media/product/038/gvm-800d-rgb-led-studio-video-light-2-panel-kit-gv800drgb2l-e66.jpg",
+    "price":50,
+    "info":[
+        {"data" : "Advanced 24.2MP back-illuminated 35mm image sensor"},
+        {"data" :"BIONZ X image processing engine"},
+        {"data" : "Shoot continuously at up to 8 fps in live view mode"},
+        {"data" : "4K HDR movie with full pixel readout, no pixel binning or crop"},
+        {"data" : "3-inch 922K-dot tiltable touch LCD Screen"}
+        
+    ],
+    "MFR":"ILCE7M3/B",
+    "FC": "ILCE7M3KBKIT9"
+
+
+  },
+
+
+  {
+    "id":5,
+    "category":"Lighting",
+    "name": "Sony a7 III Full Frame Mirrorless Camera with 28-70mm, FE 50mm f/1.8 Lens, 64GB Card, and Accessory Bundle",
+    "image":"https://cdn3.focuscamera.com/media/product/48b/aputure-light-storm-300x-bi-color-led-light-kit-with-v-mount-battery-plate-ls300xv-973.jpg",
+    "price":100,
+    "info":[
+        {"data" : "Advanced 24.2MP back-illuminated 35mm image sensor"},
+        {"data" :"BIONZ X image processing engine"},
+        {"data" : "Shoot continuously at up to 8 fps in live view mode"},
+        {"data" : "4K HDR movie with full pixel readout, no pixel binning or crop"},
+        {"data" : "3-inch 922K-dot tiltable touch LCD Screen"}
+        
+    ],
+    "MFR":"ILCE7M3/B",
+    "FC": "ILCE7M3KBKIT9"
+
+
+  }
+
+
+
+]

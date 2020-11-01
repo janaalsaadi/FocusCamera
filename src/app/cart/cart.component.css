@@ -1,0 +1,65 @@
+.ProductInfo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid gray
+}
+
+.itemDiv{
+    flex: 70%;
+    text-align: left;
+}
+
+.itemDetail{
+flex: 30%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+.myBtn{
+background-color: white;
+color:#8B0000;
+border: none;
+outline: none;
+}
+
+.myInput{
+margin-left: 45%;
+text-align: right;
+height: 10%;
+width: 35%;
+margin-top: 2%;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 30%;
+    padding-top: 8%;
+}
+.itemInfo{
+    flex: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.pic{
+    flex: 70%;
+    display: flex;
+}
+
+@media (max-width: 530px) {
+
+.ProductInfo{
+    flex-direction: column;
+}
+    .pic{
+        flex-direction: column;
+    }
+    .itemInfo{
+        flex-direction: column;
+    }
+}

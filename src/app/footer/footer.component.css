@@ -1,0 +1,39 @@
+.footerinner{
+    background-color:lightgray;
+    height: 20%;
+    box-sizing: border-box;
+    padding-left: 0%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1%;
+    display: flex;
+   max-width: 100%;
+    
+    
+}
+.mya{
+    text-decoration: none;
+     color: gray;
+
+}
+
+.myul{
+    list-style: none;
+   
+}
+.main{
+    width: 100%;
+}
+
+
+
+@media (max-width: 977px) {
+  .footerinner{
+      flex-direction: column;
+  }
+  .myul{
+      width: 100%;
+
+  }
+
+}
